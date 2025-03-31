@@ -9,7 +9,7 @@ namespace Calories
     class ChekData
     {
         static private string emailRegex = "^((?!\\.)[\\w\\-_.]*[^.])(@\\w+)(\\.\\w+(\\.\\w+)?[^.\\W])$";
-        static private string passwordRegex = "^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^\\w\\d\\s:])([^\\s]){8,16}$";
+        static private string passwordRegex = "^(?=.*\\d)(?=.*[A-Я])(?=.*[a-я])(?=.*[^\\w\\d\\s:])([^\\s]){8,16}$";
         static private async void ErrorMessage(string errorMeseg)
         {
             await App.Current.MainPage.DisplayAlert("Ошибка", errorMeseg, "OK");
@@ -45,7 +45,7 @@ namespace Calories
                     "-одну заглавную букву;\n" +
                     "-одну маленькую букву;\n" +
                     "-одну цифру от (0-9);\n" +
-                    "-один специальный символ. ");
+                    "-один специальный символ. 13gg89aa!A!A");
                 return false;
             }
             return true;

@@ -24,9 +24,9 @@ namespace Calories
         }
         private async void ButtonClick(object sender, EventArgs e)
         {
-            ChekEmail cE = new ChekEmail();
-            await Navigation.PushAsync(cE);
-            NavigationPage.SetHasNavigationBar(cE, false);
+            //ChekEmail cE = new ChekEmail();
+            //await Navigation.PushAsync(cE);
+            //NavigationPage.SetHasNavigationBar(cE, false);
         }
     }
 

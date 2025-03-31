@@ -21,8 +21,8 @@
         </StackLayout>
 
         <StackLayout Grid.Row="2" Orientation="Horizontal" VerticalOptions="Start" HorizontalOptions="Center" Margin="0,-230,0,0" Spacing="10" HeightRequest="60">
-            <Button Text="Подтвердить" BackgroundColor="#FF0078D7" TextColor="White" Margin="0,0,0,10" Clicked="ChekCode" />
-            <Button Text="Новый" BackgroundColor="#Transparent" TextColor="#FF0078D7" Margin="0,0,0,10" Clicked="newCode" />
+            <Button Text="Подтвердить" BackgroundColor="#FF0078D7" TextColor="White" Margin="0,0,0,10" Clicked="Chekcode" />
+            <Button x:Name="ButtonNewEmail"  Text="Новый" BackgroundColor="#Transparent" TextColor="#FF0078D7" Margin="0,0,0,10" Clicked="newCode" />
         </StackLayout>
 
     </Grid>

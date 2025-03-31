@@ -33,7 +33,7 @@ namespace Calories
         {
             if (CheckUserDataInputs())
             {
-                ChekEmail cE = new ChekEmail();
+                ChekEmail cE = new ChekEmail(NewEmailEntry.Text, NewUserNameEntry.Text, NewPasswordEntry.Text);
                 await Navigation.PushAsync(cE);
                 NavigationPage.SetHasNavigationBar(cE, false);
             }
@@ -42,7 +42,7 @@ namespace Calories
         
         private bool CheckUserDataInputs()
         {
-            if(!CheckLogin(NewUserNameEntry.Text) || !CheckEmail(NewEmailEntry.Text) || !CheckPassword(NewPasswordEntry.Text) || CheckTwoPassword(NewPasswordEntry.Text, NewPasswordChekEntry.Text))
+            if(!CheckLogin(NewUserNameEntry.Text) || !CheckEmail(NewEmailEntry.Text) || !CheckPassword(NewPasswordEntry.Text) || !CheckTwoPassword(NewPasswordEntry.Text, NewPasswordChekEntry.Text))
             {
                 return false;
             }
