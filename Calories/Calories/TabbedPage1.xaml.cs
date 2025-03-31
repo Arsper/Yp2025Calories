@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using static Calories.ChekData;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin.Essentials;
 
 namespace Calories
 {
@@ -33,7 +34,10 @@ namespace Calories
         {
             if (CheckUserDataInputs())
             {
-                ChekEmail cE = new ChekEmail(NewEmailEntry.Text, NewUserNameEntry.Text, NewPasswordEntry.Text);
+                await SecureStorage.SetAsync("reg_email", NewEmailEntry.Text);
+                await SecureStorage.SetAsync("reg_login", NewUserNameEntry.Text);
+                await SecureStorage.SetAsync("reg_password", NewPasswordEntry.Text);
+                ChekEmail cE = new ChekEmail();
                 await Navigation.PushAsync(cE);
                 NavigationPage.SetHasNavigationBar(cE, false);
             }
@@ -48,5 +52,6 @@ namespace Calories
             }
             return true;
         }
+
     }
 }

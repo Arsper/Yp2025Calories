@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|c:\\users\\kraut\\desktop\\yp2025calories\\calories\\calories\\class\\workwithemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|solutionrelative:calories\\calories\\class\\workwithemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|c:\\users\\kraut\\desktop\\yp2025calories\\calories\\calories\\\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F\\usersinfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|solutionrelative:calories\\calories\\\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F\\usersinfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|c:\\users\\kraut\\desktop\\yp2025calories\\calories\\calories\\\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F\\chekemail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|solutionrelative:calories\\calories\\\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F\\chekemail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|c:\\users\\kraut\\desktop\\yp2025calories\\calories\\calories\\\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F\\usersinfo.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|solutionrelative:calories\\calories\\\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F\\usersinfo.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|c:\\users\\kraut\\desktop\\yp2025calories\\calories\\calories\\class\\chekdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|solutionrelative:calories\\calories\\class\\chekdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|c:\\users\\kraut\\desktop\\yp2025calories\\calories\\calories\\\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F\\chekemail.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|solutionrelative:calories\\calories\\\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F\\chekemail.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|c:\\users\\kraut\\desktop\\yp2025calories\\calories\\calories\\tabbedpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|solutionrelative:calories\\calories\\tabbedpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|c:\\users\\kraut\\desktop\\yp2025calories\\calories\\calories\\tabbedpage1.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|solutionrelative:calories\\calories\\tabbedpage1.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+      "AbsoluteMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|c:\\users\\kraut\\desktop\\yp2025calories\\calories\\calories\\nutritioncalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|solutionrelative:calories\\calories\\nutritioncalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,80 +34,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ChekEmail.xaml",
-              "DocumentMoniker": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories\\\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F\\ChekEmail.xaml",
-              "RelativeDocumentMoniker": "Calories\\Calories\\\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F\\ChekEmail.xaml",
-              "ToolTip": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories\\\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F\\ChekEmail.xaml",
-              "RelativeToolTip": "Calories\\Calories\\\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F\\ChekEmail.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-31T16:34:30.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ChekData.cs",
-              "DocumentMoniker": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories\\Class\\ChekData.cs",
-              "RelativeDocumentMoniker": "Calories\\Calories\\Class\\ChekData.cs",
-              "ToolTip": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories\\Class\\ChekData.cs",
-              "RelativeToolTip": "Calories\\Calories\\Class\\ChekData.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAASwBMAAAA0AAAAAAAAAA==",
+              "Title": "NutritionCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories\\NutritionCalculator.cs",
+              "RelativeDocumentMoniker": "Calories\\Calories\\NutritionCalculator.cs",
+              "ToolTip": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories\\NutritionCalculator.cs",
+              "RelativeToolTip": "Calories\\Calories\\NutritionCalculator.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAcwF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T16:25:58.302Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ChekEmail.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories\\\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F\\ChekEmail.xaml.cs",
-              "RelativeDocumentMoniker": "Calories\\Calories\\\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F\\ChekEmail.xaml.cs",
-              "ToolTip": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories\\\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F\\ChekEmail.xaml.cs",
-              "RelativeToolTip": "Calories\\Calories\\\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F\\ChekEmail.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T15:03:22.644Z",
+              "WhenOpened": "2025-03-31T20:51:24.557Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WorkWithEmail.cs",
-              "DocumentMoniker": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories\\Class\\WorkWithEmail.cs",
-              "RelativeDocumentMoniker": "Calories\\Calories\\Class\\WorkWithEmail.cs",
-              "ToolTip": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories\\Class\\WorkWithEmail.cs",
-              "RelativeToolTip": "Calories\\Calories\\Class\\WorkWithEmail.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwBsAAAA6AAAAAAAAAA==",
+              "Title": "UsersInfo.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories\\\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F\\UsersInfo.xaml.cs",
+              "RelativeDocumentMoniker": "Calories\\Calories\\\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F\\UsersInfo.xaml.cs",
+              "ToolTip": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories\\\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F\\UsersInfo.xaml.cs",
+              "RelativeToolTip": "Calories\\Calories\\\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F\\UsersInfo.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwCsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T14:57:16.333Z",
+              "WhenOpened": "2025-03-31T20:42:04.069Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TabbedPage1.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories\\TabbedPage1.xaml.cs",
-              "RelativeDocumentMoniker": "Calories\\Calories\\TabbedPage1.xaml.cs",
-              "ToolTip": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories\\TabbedPage1.xaml.cs",
-              "RelativeToolTip": "Calories\\Calories\\TabbedPage1.xaml.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAqwCEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T13:22:19.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TabbedPage1.xaml",
-              "DocumentMoniker": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories\\TabbedPage1.xaml",
-              "RelativeDocumentMoniker": "Calories\\Calories\\TabbedPage1.xaml",
-              "ToolTip": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories\\TabbedPage1.xaml",
-              "RelativeToolTip": "Calories\\Calories\\TabbedPage1.xaml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAYwDQAAABQAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UsersInfo.xaml",
+              "DocumentMoniker": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories\\\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F\\UsersInfo.xaml",
+              "RelativeDocumentMoniker": "Calories\\Calories\\\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F\\UsersInfo.xaml",
+              "ToolTip": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories\\\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F\\UsersInfo.xaml",
+              "RelativeToolTip": "Calories\\Calories\\\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F\\UsersInfo.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-31T13:21:07.5Z",
+              "WhenOpened": "2025-03-31T20:41:51.292Z",
               "EditorCaption": ""
             }
           ]

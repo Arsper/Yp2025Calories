@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Diagnostics;
 using System.Net.Mail;
 using System.Net;
 using System.Threading.Tasks;
@@ -7,64 +6,87 @@ using Xamarin.Forms;
 
 namespace Calories
 {
-    class WorkWithEmail
+    public static class WorkWithEmail
     {
-        static private int rInt;
-        static string _email;
-        static Entry _timeEntry;
-        static private EventHandler _currentHandler;
+        private static int _verificationCode;
+        private static EventHandler _currentHandler;
 
-        static public async void TimerEmail(Entry timeEntry, Button button,string email)
+        public static async Task EmailWorkAsync(Entry timeEntry, Button button, string email)
         {
-            _email=email;
-            _timeEntry=timeEntry;
-            await MessangInPos(email);
+            try
+            {
+                // Запускаем таймер и отправку письма параллельно
+                var timerTask = RunTimerAsync(timeEntry, button, email);
+                var sendEmailTask = SendVerificationEmailAsync(email);
+
+                await Task.WhenAll(timerTask, sendEmailTask);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Ошибка при отправке email: {ex.Message}");
+            }
+        }
+
+        private static async Task RunTimerAsync(Entry timeEntry, Button button, string email)
+        {
             if (_currentHandler != null)
             {
                 button.Clicked -= _currentHandler;
             }
 
-            button.BackgroundColor = Color.Transparent;
+            await Device.InvokeOnMainThreadAsync(() =>
+            {
+                button.BackgroundColor = Color.Transparent;
+                timeEntry.Text = "30";
+            });
 
-            timeEntry.Text = "30";
             for (int i = 30; i >= 0; i--)
             {
                 await Task.Delay(1000);
-                timeEntry.Text = i.ToString();
+                await Device.InvokeOnMainThreadAsync(() => timeEntry.Text = i.ToString());
             }
 
-            button.BackgroundColor = Color.White;
+            await Device.InvokeOnMainThreadAsync(() =>
+            {
+                button.BackgroundColor = Color.White;
 
-            // Назначаем новый обработчик
-            _currentHandler = (sender, e) => OnNewCodeClicked(sender, e, button);
-            button.Clicked += _currentHandler;
+                // Назначаем новый обработчик
+                _currentHandler = async (sender, e) => await EmailWorkAsync(timeEntry, button, email);
+                button.Clicked += _currentHandler;
+            });
         }
-        static public Task MessangInPos(string email)
+
+        private static async Task SendVerificationEmailAsync(string email)
         {
-            System.Random r = new System.Random();
-            rInt = r.Next(100000, 999999);
-            MailAddress fromMailAddress = new MailAddress("arseniyzyk81@gmail.com", "Калории");
-            MailAddress toAddress = new MailAddress(email, "Пользователь");
+            await Task.Run(() =>
+            {
+                var r = new Random();
+                _verificationCode = r.Next(100000, 999999);
 
-            MailMessage message = new MailMessage(fromMailAddress, toAddress);
+                using (var message = new MailMessage())
+                {
+                    message.From = new MailAddress("arseniyzyk81@gmail.com", "Калории");
+                    message.To.Add(new MailAddress(email));
+                    message.Subject = "Подтверждение почты";
+                    message.Body = $"Введите код чтобы подтвердить вашу почту: {_verificationCode}";
 
-            message.Subject = "Подтверждение почты";
-            message.Body = "Введите код чтобы подтвердить вашу почту: " + rInt;
+                    using (var smtp = new SmtpClient("smtp.gmail.com", 587))
+                    {
+                        smtp.EnableSsl = true;
+                        smtp.UseDefaultCredentials = false;
+                        smtp.Credentials = new NetworkCredential(
+                            "arseniyzyk81@gmail.com",
+                            "kiow hswo nqyv nrue");
 
-            SmtpClient smtpClient = new SmtpClient();
-            smtpClient.Host = "smtp.gmail.com";
-            smtpClient.Port = 587;
-            smtpClient.EnableSsl = true;
-            smtpClient.DeliveryMethod = SmtpDeliveryMethod.Network;
-            smtpClient.UseDefaultCredentials = false;
-            smtpClient.Credentials = new NetworkCredential(fromMailAddress.Address, "kiow hswo nqyv nrue");
-
-            smtpClient.Send(message);
-            return Task.FromResult(0);
+                        smtp.Send(message);
+                    }
+                }
+            });
         }
-        private async static void OnNewCodeClicked(object sender, EventArgs e, Button button)
+
+        public static bool ValidateCode(string userInput)
         {
-            TimerEmail(_timeEntry, button, _email);
+            return int.TryParse(userInput, out int code) && code == _verificationCode;
         }
     }
 }
