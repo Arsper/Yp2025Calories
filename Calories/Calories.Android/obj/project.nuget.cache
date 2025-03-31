@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "On5H0Z7Sxjk=",
+  "dgSpecHash": "PpIF6vBPUnI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories.Android\\Calories.Android.csproj",
+  "projectFilePath": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories.Android\\Calories.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kraut\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\kraut\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",

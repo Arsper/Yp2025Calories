@@ -1255,11 +1255,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories.iOS\\Calories.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories.iOS\\Calories.iOS.csproj",
       "projectName": "Calories.iOS",
-      "projectPath": "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories.iOS\\Calories.iOS.csproj",
+      "projectPath": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories.iOS\\Calories.iOS.csproj",
       "packagesPath": "C:\\Users\\kraut\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories.iOS\\obj\\",
+      "outputPath": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "UsingMicrosoftNETSdk": false,
@@ -1281,8 +1281,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories\\Calories.csproj": {
-              "projectPath": "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories\\Calories.csproj"
+            "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories\\Calories.csproj": {
+              "projectPath": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories\\Calories.csproj"
             }
           }
         }

@@ -3414,11 +3414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories.Android\\Calories.Android.csproj",
+      "projectUniqueName": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories.Android\\Calories.Android.csproj",
       "projectName": "Calories.Android",
-      "projectPath": "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories.Android\\Calories.Android.csproj",
+      "projectPath": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories.Android\\Calories.Android.csproj",
       "packagesPath": "C:\\Users\\kraut\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories.Android\\obj\\",
+      "outputPath": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "UsingMicrosoftNETSdk": false,
@@ -3440,8 +3440,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories\\Calories.csproj": {
-              "projectPath": "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories\\Calories.csproj"
+            "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories\\Calories.csproj": {
+              "projectPath": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories\\Calories.csproj"
             }
           }
         }

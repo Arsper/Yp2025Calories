@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories\\Calories.csproj": {}
+    "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories\\Calories.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories\\Calories.csproj": {
+    "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories\\Calories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories\\Calories.csproj",
+        "projectUniqueName": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories\\Calories.csproj",
         "projectName": "Calories",
-        "projectPath": "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories\\Calories.csproj",
+        "projectPath": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories\\Calories.csproj",
         "packagesPath": "C:\\Users\\kraut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories\\obj\\",
+        "outputPath": "C:\\Users\\kraut\\Desktop\\Yp2025Calories\\Calories\\Calories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

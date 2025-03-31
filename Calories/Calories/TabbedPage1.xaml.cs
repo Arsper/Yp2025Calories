@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-
+using static Calories.ChekData;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -30,9 +31,22 @@ namespace Calories
         }
         private async void ButtonClick(object sender, EventArgs e)
         {
-            ChekEmail cE = new ChekEmail();
-            await Navigation.PushAsync(cE);
-            NavigationPage.SetHasNavigationBar(cE, false);
+            if (CheckUserDataInputs())
+            {
+                ChekEmail cE = new ChekEmail();
+                await Navigation.PushAsync(cE);
+                NavigationPage.SetHasNavigationBar(cE, false);
+            }
+            
+        }
+        
+        private bool CheckUserDataInputs()
+        {
+            if(!CheckLogin(NewUserNameEntry.Text) || !CheckEmail(NewEmailEntry.Text) || !CheckPassword(NewPasswordEntry.Text) || CheckTwoPassword(NewPasswordEntry.Text, NewPasswordChekEntry.Text))
+            {
+                return false;
+            }
+            return true;
         }
     }
 }

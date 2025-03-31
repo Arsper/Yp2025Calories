@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638787837139471889
+_nugetassetstimestamp=638790332227200486
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=c:\users\kraut\source\repos\calories\calories\calories.android\calories.android.csproj
+projectfullpath=c:\users\kraut\desktop\yp2025calories\calories\calories.android\calories.android.csproj
