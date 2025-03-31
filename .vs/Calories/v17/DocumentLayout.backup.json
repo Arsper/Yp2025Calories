@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kraut\\source\\repos\\Calories\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|c:\\users\\kraut\\source\\repos\\calories\\calories\\calories\\\u0441\u043C\u0435\u043D\u0430 \u043F\u0430\u0440\u043E\u043B\u044F\\inputenaill.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|solutionrelative:calories\\calories\\\u0441\u043C\u0435\u043D\u0430 \u043F\u0430\u0440\u043E\u043B\u044F\\inputenaill.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|c:\\users\\kraut\\source\\repos\\calories\\calories\\calories\\\u0441\u043C\u0435\u043D\u0430 \u043F\u0430\u0440\u043E\u043B\u044F\\inputenaill.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|solutionrelative:calories\\calories\\\u0441\u043C\u0435\u043D\u0430 \u043F\u0430\u0440\u043E\u043B\u044F\\inputenaill.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|c:\\users\\kraut\\source\\repos\\calories\\calories\\calories\\\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F\\usersinfo.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|solutionrelative:calories\\calories\\\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F\\usersinfo.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|c:\\users\\kraut\\source\\repos\\calories\\calories\\calories\\tabbedpage1.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|solutionrelative:calories\\calories\\tabbedpage1.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|c:\\users\\kraut\\source\\repos\\calories\\calories\\calories\\tabbedpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|solutionrelative:calories\\calories\\tabbedpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|c:\\users\\kraut\\source\\repos\\calories\\calories\\calories\\\u0441\u043C\u0435\u043D\u0430 \u043F\u0430\u0440\u043E\u043B\u044F\\checkemailpassword.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|solutionrelative:calories\\calories\\\u0441\u043C\u0435\u043D\u0430 \u043F\u0430\u0440\u043E\u043B\u044F\\checkemailpassword.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|c:\\users\\kraut\\source\\repos\\calories\\calories\\calories\\\u0441\u043C\u0435\u043D\u0430 \u043F\u0430\u0440\u043E\u043B\u044F\\inputnewpassword.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|solutionrelative:calories\\calories\\\u0441\u043C\u0435\u043D\u0430 \u043F\u0430\u0440\u043E\u043B\u044F\\inputnewpassword.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|c:\\users\\kraut\\source\\repos\\calories\\calories\\calories\\\u0441\u043C\u0435\u043D\u0430 \u043F\u0430\u0440\u043E\u043B\u044F\\checkemailpassword.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B457373-8F9D-4610-8946-774F7BF8231C}|Calories\\Calories\\Calories.csproj|solutionrelative:calories\\calories\\\u0441\u043C\u0435\u043D\u0430 \u043F\u0430\u0440\u043E\u043B\u044F\\checkemailpassword.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersInfo.xaml",
+              "DocumentMoniker": "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories\\\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F\\UsersInfo.xaml",
+              "RelativeDocumentMoniker": "Calories\\Calories\\\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F\\UsersInfo.xaml",
+              "ToolTip": "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories\\\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F\\UsersInfo.xaml",
+              "RelativeToolTip": "Calories\\Calories\\\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F\\UsersInfo.xaml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABMAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-28T20:22:10.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InputNewPassword.xaml",
+              "DocumentMoniker": "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories\\\u0421\u043C\u0435\u043D\u0430 \u043F\u0430\u0440\u043E\u043B\u044F\\InputNewPassword.xaml",
+              "RelativeDocumentMoniker": "Calories\\Calories\\\u0421\u043C\u0435\u043D\u0430 \u043F\u0430\u0440\u043E\u043B\u044F\\InputNewPassword.xaml",
+              "ToolTip": "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories\\\u0421\u043C\u0435\u043D\u0430 \u043F\u0430\u0440\u043E\u043B\u044F\\InputNewPassword.xaml",
+              "RelativeToolTip": "Calories\\Calories\\\u0421\u043C\u0435\u043D\u0430 \u043F\u0430\u0440\u043E\u043B\u044F\\InputNewPassword.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-28T17:03:01.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InputEnaill.xaml",
+              "DocumentMoniker": "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories\\\u0421\u043C\u0435\u043D\u0430 \u043F\u0430\u0440\u043E\u043B\u044F\\InputEnaill.xaml",
+              "RelativeDocumentMoniker": "Calories\\Calories\\\u0421\u043C\u0435\u043D\u0430 \u043F\u0430\u0440\u043E\u043B\u044F\\InputEnaill.xaml",
+              "ToolTip": "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories\\\u0421\u043C\u0435\u043D\u0430 \u043F\u0430\u0440\u043E\u043B\u044F\\InputEnaill.xaml",
+              "RelativeToolTip": "Calories\\Calories\\\u0421\u043C\u0435\u043D\u0430 \u043F\u0430\u0440\u043E\u043B\u044F\\InputEnaill.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-28T16:31:35.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InputEnaill.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories\\\u0421\u043C\u0435\u043D\u0430 \u043F\u0430\u0440\u043E\u043B\u044F\\InputEnaill.xaml.cs",
+              "RelativeDocumentMoniker": "Calories\\Calories\\\u0421\u043C\u0435\u043D\u0430 \u043F\u0430\u0440\u043E\u043B\u044F\\InputEnaill.xaml.cs",
+              "ToolTip": "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories\\\u0421\u043C\u0435\u043D\u0430 \u043F\u0430\u0440\u043E\u043B\u044F\\InputEnaill.xaml.cs",
+              "RelativeToolTip": "Calories\\Calories\\\u0421\u043C\u0435\u043D\u0430 \u043F\u0430\u0440\u043E\u043B\u044F\\InputEnaill.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T17:00:06.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TabbedPage1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories\\TabbedPage1.xaml.cs",
+              "RelativeDocumentMoniker": "Calories\\Calories\\TabbedPage1.xaml.cs",
+              "ToolTip": "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories\\TabbedPage1.xaml.cs",
+              "RelativeToolTip": "Calories\\Calories\\TabbedPage1.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T16:22:37.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TabbedPage1.xaml",
+              "DocumentMoniker": "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories\\TabbedPage1.xaml",
+              "RelativeDocumentMoniker": "Calories\\Calories\\TabbedPage1.xaml",
+              "ToolTip": "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories\\TabbedPage1.xaml",
+              "RelativeToolTip": "Calories\\Calories\\TabbedPage1.xaml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAD4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-28T16:19:30.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CheckEmailPassword.xaml",
+              "DocumentMoniker": "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories\\\u0421\u043C\u0435\u043D\u0430 \u043F\u0430\u0440\u043E\u043B\u044F\\CheckEmailPassword.xaml",
+              "RelativeDocumentMoniker": "Calories\\Calories\\\u0421\u043C\u0435\u043D\u0430 \u043F\u0430\u0440\u043E\u043B\u044F\\CheckEmailPassword.xaml",
+              "ToolTip": "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories\\\u0421\u043C\u0435\u043D\u0430 \u043F\u0430\u0440\u043E\u043B\u044F\\CheckEmailPassword.xaml",
+              "RelativeToolTip": "Calories\\Calories\\\u0421\u043C\u0435\u043D\u0430 \u043F\u0430\u0440\u043E\u043B\u044F\\CheckEmailPassword.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-28T20:09:31.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CheckEmailPassword.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories\\\u0421\u043C\u0435\u043D\u0430 \u043F\u0430\u0440\u043E\u043B\u044F\\CheckEmailPassword.xaml.cs",
+              "RelativeDocumentMoniker": "Calories\\Calories\\\u0421\u043C\u0435\u043D\u0430 \u043F\u0430\u0440\u043E\u043B\u044F\\CheckEmailPassword.xaml.cs",
+              "ToolTip": "C:\\Users\\kraut\\source\\repos\\Calories\\Calories\\Calories\\\u0421\u043C\u0435\u043D\u0430 \u043F\u0430\u0440\u043E\u043B\u044F\\CheckEmailPassword.xaml.cs",
+              "RelativeToolTip": "Calories\\Calories\\\u0421\u043C\u0435\u043D\u0430 \u043F\u0430\u0440\u043E\u043B\u044F\\CheckEmailPassword.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T20:11:05.434Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

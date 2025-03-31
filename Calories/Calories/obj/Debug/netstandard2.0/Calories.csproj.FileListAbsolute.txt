@@ -1,0 +1,22 @@
+C:\Users\kraut\source\repos\Calories\Calories\Calories\bin\Debug\netstandard2.0\Calories.deps.json
+C:\Users\kraut\source\repos\Calories\Calories\Calories\bin\Debug\netstandard2.0\Calories.dll
+C:\Users\kraut\source\repos\Calories\Calories\Calories\bin\Debug\netstandard2.0\ref\Calories.dll
+C:\Users\kraut\source\repos\Calories\Calories\Calories\bin\Debug\netstandard2.0\Calories.pdb
+C:\Users\kraut\source\repos\Calories\Calories\Calories\obj\Debug\netstandard2.0\Calories.csproj.AssemblyReference.cache
+C:\Users\kraut\source\repos\Calories\Calories\Calories\obj\Debug\netstandard2.0\Calories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kraut\source\repos\Calories\Calories\Calories\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\kraut\source\repos\Calories\Calories\Calories\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\kraut\source\repos\Calories\Calories\Calories\obj\Debug\netstandard2.0\Регистрация\ChekEmail.xaml.g.cs
+C:\Users\kraut\source\repos\Calories\Calories\Calories\obj\Debug\netstandard2.0\Регистрация\SignUp.xaml.g.cs
+C:\Users\kraut\source\repos\Calories\Calories\Calories\obj\Debug\netstandard2.0\Регистрация\UsersInfo.xaml.g.cs
+C:\Users\kraut\source\repos\Calories\Calories\Calories\obj\Debug\netstandard2.0\Calories.AssemblyInfoInputs.cache
+C:\Users\kraut\source\repos\Calories\Calories\Calories\obj\Debug\netstandard2.0\Calories.AssemblyInfo.cs
+C:\Users\kraut\source\repos\Calories\Calories\Calories\obj\Debug\netstandard2.0\Calories.csproj.CoreCompileInputs.cache
+C:\Users\kraut\source\repos\Calories\Calories\Calories\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\kraut\source\repos\Calories\Calories\Calories\obj\Debug\netstandard2.0\Calories.dll
+C:\Users\kraut\source\repos\Calories\Calories\Calories\obj\Debug\netstandard2.0\refint\Calories.dll
+C:\Users\kraut\source\repos\Calories\Calories\Calories\obj\Debug\netstandard2.0\Calories.pdb
+C:\Users\kraut\source\repos\Calories\Calories\Calories\obj\Debug\netstandard2.0\TabbedPage1.xaml.g.cs
+C:\Users\kraut\source\repos\Calories\Calories\Calories\obj\Debug\netstandard2.0\Смена пароля\InputEnaill.xaml.g.cs
+C:\Users\kraut\source\repos\Calories\Calories\Calories\obj\Debug\netstandard2.0\Смена пароля\InputNewPassword.xaml.g.cs
+C:\Users\kraut\source\repos\Calories\Calories\Calories\obj\Debug\netstandard2.0\Смена пароля\CheckEmailPassword.xaml.g.cs
