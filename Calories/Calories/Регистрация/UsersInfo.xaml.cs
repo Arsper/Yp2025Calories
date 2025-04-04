@@ -50,8 +50,8 @@ namespace Calories
 
                 // Выполняем расчет
                 var result = calculator.Calculate(age, height, weight, gender, activity, goal);
-                var server = new ServerClass();
-                var request = new ServerClass.RegistrationRequest
+                var registrationService = new UserRegistration("http://f1110995.xsph.ru/CreateUser.php");
+                var request = new UserRegistration.RegistrationRequest
                 {
                     Login = "testUser",
                     Email = "test@example.com",
@@ -60,22 +60,22 @@ namespace Calories
                     Height = height,
                     Weight = weight,
                     Gender = gender.Contains("male") == true ? true : false,
-                    Activity = "active",
-                    Aim = "lose_weight",
+                    Activity = activity,
+                    Aim = goal,
                     Calories = result.calories,
                     Water = result.water,
                     Fats = result.bju.fat,
                     Proteins = result.bju.protein,
                     Carbs = result.bju.carbs
                 };
-                try
+                var response = await registrationService.RegisterUserAsync(request);
+                if (response.Status == "success")
                 {
-                    var response = await server.RegisterUserAsync(request);
-                    await DisplayAlert("Супер",$"Success! User ID: {response.UserId}", "ОК");
+                    await DisplayAlert("Супер", $"Success! User ID: {response.UserId}", "ОК");
                 }
-                catch (Exception ex)
+                else
                 {
-                    await DisplayAlert("Ошибка",$"Error: {ex.Message}", "ОК");
+                    await DisplayAlert("Не супер", $"Error: {response.Message}", "ОК");
                 }
                 //// Показываем результат
                 //await DisplayAlert("Результаты",

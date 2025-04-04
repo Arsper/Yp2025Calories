@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,6 +29,7 @@ namespace Calories.Class
         {
             _httpClient = new HttpClient();
             _apiUrl = apiBaseUrl;
+
         }
 
         // Основной метод для проверки пользователя
@@ -35,18 +37,23 @@ namespace Calories.Class
         {
             try
             {
+                var request = new HttpRequestMessage(HttpMethod.Post, _apiUrl);
+                request.Headers.Add("Accept", "application/json");
+
                 var requestData = new { login, email };
-                var json = JsonConvert.SerializeObject(requestData);
-                var content = new StringContent(json, Encoding.UTF8, "application/json");
+                request.Content = new StringContent(
+                    JsonConvert.SerializeObject(requestData),
+                    Encoding.UTF8,
+                    "application/json");
 
-                var response = await _httpClient.PostAsync(_apiUrl, content);
+                var response = await _httpClient.SendAsync(request);
 
-                if (!response.IsSuccessStatusCode)
+                if (response.StatusCode == HttpStatusCode.Forbidden)
                 {
                     return new ApiResponse
                     {
                         Status = "error",
-                        Message = $"Ошибка сервера: {response.StatusCode}"
+                        Message = "Доступ запрещен. Проверьте API-ключи или права доступа"
                     };
                 }
 

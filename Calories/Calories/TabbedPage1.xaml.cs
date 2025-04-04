@@ -19,7 +19,7 @@ namespace Calories
         public TabbedPage1()
         {
             InitializeComponent();
-            service = new UserRegistrationService("http://c33661db.beget.tech/api/ChekUser.php");
+            service = new UserRegistrationService("http://f1110995.xsph.ru/ChekUser.php");
         }
         private async void ButtonSignUp(object sender, EventArgs e)
         {
@@ -43,23 +43,22 @@ namespace Calories
 
                     if (result.Status == "success")
                     {
-                        await DisplayAlert("Супер", $"Пользователь может войти: {result.Message}", "ОК");
+                        await SecureStorage.SetAsync("reg_email", NewEmailEntry.Text);
+                        await SecureStorage.SetAsync("reg_login", NewUserNameEntry.Text);
+                        await SecureStorage.SetAsync("reg_password", NewPasswordEntry.Text);
+                        ChekEmail cE = new ChekEmail();
+                        await Navigation.PushAsync(cE);
+                        NavigationPage.SetHasNavigationBar(cE, false);
                     }
                     else
                     {
-                        await DisplayAlert("Ошибка", $"Пользователь не может войти: {result.Message}", "ОК");
+                        await DisplayAlert("Ошибка", $"Пользователь с таким email или логином уже существует", "ОК");
                     }
                 }
                 catch (Exception ex)
                 {
                     await DisplayAlert("Ошибка", $"Произошла ошибка: {ex.Message}", "ОК");
                 }
-                //await SecureStorage.SetAsync("reg_email", NewEmailEntry.Text);
-                //await SecureStorage.SetAsync("reg_login", NewUserNameEntry.Text);
-                //await SecureStorage.SetAsync("reg_password", NewPasswordEntry.Text);
-                //ChekEmail cE = new ChekEmail();
-                //await Navigation.PushAsync(cE);
-                //NavigationPage.SetHasNavigationBar(cE, false);
             }
             
         }
