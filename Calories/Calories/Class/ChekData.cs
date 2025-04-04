@@ -15,9 +15,10 @@ namespace Calories
             await App.Current.MainPage.DisplayAlert("Ошибка", errorMeseg, "OK");
         }
 
+
         static public bool CheckLogin(string Login)
         {
-            if (!Regex.IsMatch(Login ?? "", ".{5,16}", RegexOptions.IgnoreCase))
+            if (!Regex.IsMatch(Login ?? "", "\\S{5,16}", RegexOptions.IgnoreCase))
             {
                 ErrorMessage("Логин должен состоять минимум из 5 символов.");
                 return false;

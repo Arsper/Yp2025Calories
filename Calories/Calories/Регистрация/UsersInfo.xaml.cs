@@ -50,14 +50,40 @@ namespace Calories
 
                 // Выполняем расчет
                 var result = calculator.Calculate(age, height, weight, gender, activity, goal);
-
-                // Показываем результат
-                await DisplayAlert("Результаты",
-                    $"Калории: {result.calories} ккал\n" +
-                    $"Белки: {result.bju.protein}g\n" +
-                    $"Жиры: {result.bju.fat}g\n" +
-                    $"Углеводы: {result.bju.carbs}g\n" +
-                    $"Вода: {result.water} мл", "OK");
+                var server = new ServerClass();
+                var request = new ServerClass.RegistrationRequest
+                {
+                    Login = "testUser",
+                    Email = "test@example.com",
+                    Password = "securePass123",
+                    Age = age,
+                    Height = height,
+                    Weight = weight,
+                    Gender = gender.Contains("male") == true ? true : false,
+                    Activity = "active",
+                    Aim = "lose_weight",
+                    Calories = result.calories,
+                    Water = result.water,
+                    Fats = result.bju.fat,
+                    Proteins = result.bju.protein,
+                    Carbs = result.bju.carbs
+                };
+                try
+                {
+                    var response = await server.RegisterUserAsync(request);
+                    await DisplayAlert("Супер",$"Success! User ID: {response.UserId}", "ОК");
+                }
+                catch (Exception ex)
+                {
+                    await DisplayAlert("Ошибка",$"Error: {ex.Message}", "ОК");
+                }
+                //// Показываем результат
+                //await DisplayAlert("Результаты",
+                //    $"Калории: {result.calories} ккал\n" +
+                //    $"Белки: {result.bju.protein}g\n" +
+                //    $"Жиры: {result.bju.fat}g\n" +
+                //    $"Углеводы: {result.bju.carbs}g\n" +
+                //    $"Вода: {result.water} мл", "OK");
             }
             catch (Exception ex)
             {

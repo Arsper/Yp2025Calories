@@ -8,15 +8,18 @@ using static Calories.ChekData;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Xamarin.Essentials;
+using Calories.Class;
 
 namespace Calories
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class TabbedPage1 : TabbedPage
     {
+        UserRegistrationService service;
         public TabbedPage1()
         {
             InitializeComponent();
+            service = new UserRegistrationService("http://c33661db.beget.tech/api/ChekUser.php");
         }
         private async void ButtonSignUp(object sender, EventArgs e)
         {
@@ -34,17 +37,34 @@ namespace Calories
         {
             if (CheckUserDataInputs())
             {
-                await SecureStorage.SetAsync("reg_email", NewEmailEntry.Text);
-                await SecureStorage.SetAsync("reg_login", NewUserNameEntry.Text);
-                await SecureStorage.SetAsync("reg_password", NewPasswordEntry.Text);
-                ChekEmail cE = new ChekEmail();
-                await Navigation.PushAsync(cE);
-                NavigationPage.SetHasNavigationBar(cE, false);
+                try
+                {
+                    var result = await service.CheckUserExistsAsync(NewUserNameEntry.Text, NewEmailEntry.Text);
+
+                    if (result.Status == "success")
+                    {
+                        await DisplayAlert("Супер", $"Пользователь может войти: {result.Message}", "ОК");
+                    }
+                    else
+                    {
+                        await DisplayAlert("Ошибка", $"Пользователь не может войти: {result.Message}", "ОК");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    await DisplayAlert("Ошибка", $"Произошла ошибка: {ex.Message}", "ОК");
+                }
+                //await SecureStorage.SetAsync("reg_email", NewEmailEntry.Text);
+                //await SecureStorage.SetAsync("reg_login", NewUserNameEntry.Text);
+                //await SecureStorage.SetAsync("reg_password", NewPasswordEntry.Text);
+                //ChekEmail cE = new ChekEmail();
+                //await Navigation.PushAsync(cE);
+                //NavigationPage.SetHasNavigationBar(cE, false);
             }
             
         }
         
-        private bool CheckUserDataInputs()
+        private  bool CheckUserDataInputs()
         {
             if(!CheckLogin(NewUserNameEntry.Text) || !CheckEmail(NewEmailEntry.Text) || !CheckPassword(NewPasswordEntry.Text) || !CheckTwoPassword(NewPasswordEntry.Text, NewPasswordChekEntry.Text))
             {
@@ -52,6 +72,5 @@ namespace Calories
             }
             return true;
         }
-
     }
 }
